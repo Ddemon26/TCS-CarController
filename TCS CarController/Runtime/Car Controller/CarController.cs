@@ -398,7 +398,7 @@ namespace TCS.CarController {
                 < 25f => Mathf.MoveTowards(m_currentMaxSteerAngle, m_maximumSteerAngle, 0.5f),
                 > 25f and < 60f => Mathf.MoveTowards(m_currentMaxSteerAngle, m_maximumSteerAngle / 1.5f, 0.5f),
                 > 60 => Mathf.MoveTowards(m_currentMaxSteerAngle, m_maximumSteerAngle / 2f, 0.5f),
-                _ => m_currentMaxSteerAngle
+                _ => m_currentMaxSteerAngle,
             };
         }
     }

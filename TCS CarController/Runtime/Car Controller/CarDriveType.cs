@@ -2,6 +2,6 @@
     internal enum CarDriveType {
         FrontWheelDrive,
         RearWheelDrive,
-        AllWheelDrive
+        AllWheelDrive,
     }
 }

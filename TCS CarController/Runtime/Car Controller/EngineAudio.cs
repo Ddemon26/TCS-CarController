@@ -4,7 +4,7 @@ namespace TCS.CarController {
     internal class EngineAudio : MonoBehaviour {
         public enum EngineAudioOptions {
             Simple,
-            FourChannel
+            FourChannel,
         }
 
         [Header("Style")]
